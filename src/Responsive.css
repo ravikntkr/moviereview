@@ -1,0 +1,158 @@
+/* Midium screen */
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+  /* Main area styling */
+  .mainContainer {
+    height: 450px;
+  }
+
+  .logo {
+    width: 60px;
+  }
+
+  input {
+    width: 500px;
+  }
+
+  /* movie container */
+
+  .movieContainer {
+    gap: 1%;
+  }
+
+  /* card styling */
+
+  .card {
+    flex-basis: 32.6%;
+    margin-bottom: 15px;
+  }
+
+  .cardImage {
+    height: 330px;
+  }
+
+  /* Movie info styling */
+
+  .movieInfoContainer {
+    width: 100%;
+    background-color: #000;
+  }
+
+  .movieInfomain {
+    width: 90%;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .closeBtn {
+    width: 100%;
+    order: 1;
+    text-align: right;
+  }
+
+  .movieInfoLeft {
+    flex-basis: 100%;
+    order: 2;
+    margin: 0 auto;
+  }
+
+  .movieInfoRight {
+    flex-basis: 100%;
+    order: 3;
+    text-align: center;
+  }
+
+  .close {
+    display: inline-block;
+  }
+}
+
+/* Small screen */
+@media only screen and (max-width: 600px) {
+  /* Main area styling */
+
+  .mainContainer {
+    height: 400px;
+  }
+
+  .logo {
+    width: 50px;
+  }
+
+  .headerRight {
+    gap: 30px;
+  }
+
+  .socialIcons {
+    font-size: 20px;
+  }
+
+  input {
+    width: 320px;
+  }
+
+  /* movie container */
+
+  .searchResult {
+    padding: 0px 0 60px 0;
+  }
+
+  .movieContainer {
+    max-width: 80%;
+  }
+
+  /* card styling */
+
+  .card {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  .cardImage {
+    height: 400px;
+  }
+
+  /* Movie info styling */
+
+  .movieInfoContainer {
+    padding-bottom: 50px;
+  }
+
+  .movieInfomain {
+    width: 90%;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 25px;
+  }
+
+  .closeBtn {
+    width: 100%;
+    order: 1;
+    text-align: right;
+  }
+
+  .movieInfoLeft {
+    flex-basis: 100%;
+    order: 2;
+  }
+
+  .movieInfoRight {
+    flex-basis: 100%;
+    order: 3;
+  }
+
+  .infoimg {
+    height: 420px;
+  }
+
+  .movieTitle {
+    font-size: 30px;
+  }
+
+  .movieInfoSmtxt {
+    font-size: 16px;
+  }
+
+  .close {
+    display: inline-block;
+  }
+}
